@@ -1,0 +1,6 @@
+{
+  "name": "PyTorch & Open3D Memory-Safe SLAM Workbench",
+  "description": "Zero-copy DLPack PyTorch & Open3D tensor SLAM pipeline for LiDAR and RGB-D sensors with memory leak prevention and Big-O complexity analysis across feature extraction, data association, and pose graph optimization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

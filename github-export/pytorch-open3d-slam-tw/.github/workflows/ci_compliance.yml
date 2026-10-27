@@ -1,0 +1,10 @@
+name: Taiwan ROC Legal Compliance & SLAM Unit Tests
+on: [push, pull_request]
+jobs:
+  compliance-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Taiwan PDPA & Trade Secret Act Scan
+        run: |
+          ! grep -rnE "(BEGIN RSA PRIVATE KEY|CONFIDENTIAL_INTERNAL_CAD)" src/ README.md

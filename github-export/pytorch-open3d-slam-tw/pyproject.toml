@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytorch-open3d-slam-tw"
+version = "1.0.0"
+description = "Memory-Safe LiDAR & RGB-D Tensor SLAM Pipeline in PyTorch 2.x and Open3D 0.18+ with Big-O Complexity Proofs, NIST CSF 2.0 Security, and Taiwan (ROC) Legal Compliance."
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24.0",
+    "torch>=2.1.0",
+    "open3d>=0.18.0",
+]
